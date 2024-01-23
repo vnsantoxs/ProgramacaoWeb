@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Valorant-Agent-Menu-Idea" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/Valorant_agents" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/rexrk.github.io-Valorant-Chamber-" vcs="Git" />
   </component>
 </project>

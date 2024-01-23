@@ -1,0 +1,50 @@
+body {
+    background: url('bg.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#contactform {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background: none;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#name, #email, #comment {
+    background: none;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+
+#contactform label,
+#contactform input,
+#contactform textarea {
+    color: gold;
+}
+
+#contactform input[type="submit"] {
+    background-color: gold;
+    color: #000;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 4px;
+}
+#commentlab, #namelab, #emaillab{
+    border: black;
+}

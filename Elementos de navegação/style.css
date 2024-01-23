@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Agency FB";
+}
+html{
+    height: 500vh;
+}
+.container{
+    max-width: 1920px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+header i{
+    font-size: 60px;
+    color: black;
+}
+header.rolagem{
+    background-color: goldenrod;
+    padding: 20px 4%;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+header ul li a {
+    color: #383e3a;
+    text-decoration: none;
+}
+header a{
+    font-size: 30px;
+}
+nav{
+    background: goldenrod;
+    border-radius: 4px;
+}
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: goldenrod;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 4px;
+    font-size: 30px;
+}
+.banner{
+    height: 100vh;
+    background-image: url("src/bg.jpg");
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
